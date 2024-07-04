@@ -54,13 +54,13 @@ function bgcolor(){
 
 
 //change the style of the <p> item
-const txt = document.getElementById('text');
-const styleit =document.getElementById('styleit');
+// const txt = document.getElementById('text');
+// const styleit =document.getElementById('styleit');
 
-styleit.addEventListener('click',() =>{
-    txt.style.color = "blue";
-    txt.style.fontSize= "20px";
-});
+// styleit.addEventListener('click',() =>{
+//     txt.style.color = "blue";
+//     txt.style.fontSize= "20px";
+// });
 
 //function to make text disappear
 function disappear(){
