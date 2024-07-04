@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>WEBPAGE</title>
+    </head>
+    <body>
+        <header>
+            <h1>WEB DEVELOPMENT WITH JAVASCRIPT</h1>
+        </header>
+
+        <main class="part">
+            <p id="piece2">Click button below  to change my text!</p>
+            <button onclick="change()">BUTTON</button>    <br> <br>
+        
+            <label for="colour">Enter you favorite color to make it the background color. </label>
+            <input type="text" name="col" id="colour">  
+            <input type="submit" name="sub" id="SUBMIT" onclick="bgcolor()">
+            <br>  <br>  <br>
+            
+            <p id="txt">Hello World! Its brighter!</p>
+            <button id="styleit">Change Style</button>
+           
+            <p id="piece1">Click the button to make me disappear.</p>
+            <button onclick="disappear()">BUTTON</button> 
+
+            <div>
+                <canvas id="mychart" style="width: 400px; height: 200px;"></canvas>
+            </div>
+            
+           
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+            <script src="script.js"></script>
+              
+        </main>
+
+    </body>
+</html>
